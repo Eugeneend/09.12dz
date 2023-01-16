@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+background-color: rgb(37, 191, 218);
+font-size: 1.5em;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul {padding: 50px;
+    width: 80%;
+    margin: 0 auto;
+    list-style-type: none;
+    display: grid;
+grid-template-columns:  repeat(3, 1fr) ;
+
+
+
+grid-gap: 15px 30px;
+}
+
+li{ 
+    
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.558);
+    color: #000;
+
+}
+.qq { width: 350px;
+    height: 150px; 
+background-color: antiquewhite;}
+
+img { width: 100% ; }
+ 
